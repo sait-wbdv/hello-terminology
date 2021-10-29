@@ -26,7 +26,7 @@ const definitions = [
 
 // Dynamic JSON Endpoint
 app.get('/api/terminology', function(request, response) {
-  response.send(definitions)
+  response.s end(definitions)
 })
 
 app.get('/api/terminology/:id', function(request, response) {
